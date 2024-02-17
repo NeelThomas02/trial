@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-image: linear-gradient(to right, #647891 40%, #7a8faa 60%, #8ca6c1); */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  .sidebar {
+    height: 100vh;
+    width: 370px;
+    position: fixed;
+    margin-top: 10vh;
+    top: 0;
+    left: 0;
+    /* background-color: #647891; */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 80%;
+    margin-left: 2vh;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #7a8799;
+    border-radius: 15px;
+    box-shadow: 2px 2px #5a697e;
+    filter: drop-shadow(2px 2px #5a697e);
+  }
+  
+  .content {
+    margin-left: 25vh;
+    transition: margin-left 0.5s;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sidebar li:hover {
+    text-shadow: 2px 2px #5a697e;
+  }
